@@ -1,0 +1,129 @@
+
+
+	<div id="fotoJoga">
+		
+	</div>
+
+	<div class="text-5 nome_equipe"></div>
+
+	<div class="col-left">
+
+		<div class="text-12">
+			64%
+		</div>
+
+		<div class="text-2 c-verde-01">
+			APROVEITAMENTO
+		</div>
+
+	</div><!-- end col-left-->
+
+	<div class="col-right">
+		<div class='geralPont'>
+			<div class="text-1">CARTÕES AMARELOS: <strong class="cartao_amarelos"></strong></div>
+			<div class="text-1">CARTÕES VERMELHO: <strong class="cartao_vermelhos"></strong></div>
+			<div class="text-1">NUMERO DE FALTAS: <strong class="cartao_faltas"></strong></div>
+		</div>
+	</div><!-- end  col-left-->
+
+
+	<div class="contIn">
+
+		<div id="grafico">
+			<img src="imagens/grafico.gif">
+		</div>
+
+		<div class="text-5 left c-verde-01">ESTATÍSTICA</div>
+
+	</div><!-- end contIn-->
+
+	<div class="contIn">
+
+		<div class="barraTit">
+			INFORMAÇÕES GERAIS
+		</div>
+
+		<div class="boxInfText">
+			<div class="fontInf bold">NOME TÉCNICO</div>
+			<div class="fontInf nome_tecnico"></div>
+		</div>
+
+
+		<div class="boxInfText">
+			<div class="fontInf bold">NOME DO REPRESENTANTE</div>
+			<div class="fontInf nome_representante"></div>
+		</div>
+
+	
+	</div><!-- end contIn-->
+
+
+	<div class="contIn">
+
+		<div class="barraTit">
+			ULTIMAS PARTIDA
+		</div>
+
+	
+		<div class="text-12">
+			<strong class="gols_time1"></strong> x <strong class="gols_time2"></strong>
+		</div>
+
+		<div class="center c-verde-01">
+			<strong class="nome_time1"></strong> x <strong class="nome_time2"></strong>
+		</div>
+
+		<div class="boxInfText-2">
+			<div class="text-1">CARTÕES AMARELOS: 2</div>
+		</div>
+		<div class="boxInfText-2">
+			<div class="text-1">CARTÕES VERMELHO: 0</div>
+		</div>
+		<div class="boxInfText-2">
+			<div class="text-1">NUMERO DE FALTAS: 3</div>
+		</div>
+
+		<div class="campSelect lista_jogos">
+			
+		</div>		
+	
+	</div><!-- end contIn-->
+
+	<div class="contIn">
+
+		<div class="barraTit">
+			PRÓXIMA PARTIDA
+		</div>
+
+
+		<div class="text-6">
+			BARC x REAL
+		</div>
+
+		<div class="center c-verde-01">
+			ESTÁDIO SÃO BERNADEU 20:30h
+		</div>
+
+		<div class="campSelect center text-2">
+			<a href="" class="linkInSub c-verde-01">Acesse a tabela completa</a>
+		</div>
+
+	</div><!-- end contIn-->
+
+	<div class="contIn">
+
+		<div class="barraTit">COMENTÁRIOS</div>
+		<div class="itens_coments"></div>	
+	</div><!-- end contIn-->
+
+
+	<div id="doar" >
+		<div class="iconDoar"><a href="#"  onclick='trocarTela("doacao-time.html")' class="sublinkInSub c-white"><img src="imagens/iconDoar.png" /></a></div>
+		<div class="textDoar"><a href="#"  onclick='trocarTela("doacao-time.html")' class="sublinkInSub c-white">DOAR</a></div>
+	</div>
+
+<script type="text/javascript">	
+ menu = true;
+	carrega('dados_equipes.php',null,'#result','CARREGA EQUIPE');
+</script>
+

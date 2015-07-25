@@ -1,0 +1,4 @@
+INSERT INTO detalhe_jogador(id_jogador, peso, altura, pé, posicao) VALUES (1,'70','1,70','DIREITO','ATACANTE');
+INSERT INTO pontuacao_jogador(id_jogadores, num_gols, num_faltas, cartoes_amarelos, cartoes_vermelhos) VALUES (1,5,2,1,0);
+
+

@@ -1,0 +1,416 @@
+/* CSS Document */
+*{ margin: 0 auto; padding: 0;}
+div:after, ol:after, form:after, ul:after, dl:after, p:after, header:after, section:after, article:after, footer:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+
+img{border: 0; max-width: 100%;}
+body{ color: white; font-size: 14px; font-family: 'Roboto', sans-serif; background: #33691e; background-image: url('../imagens/grass.jpg'); padding-top: 4.5em;}
+
+#tudo{margin: 0 auto; border: 0px solid #000000;}
+#geralSite{margin: 0 auto; width: 960px; border: 0px solid #000000; min-height: 350px;}
+
+#logoBom{float: left; margin: 0.8% 0 0 0;}
+.geralcenter{margin: 0 auto; width: 100%;  background: #204a10;}
+.geralcenterRod{margin: 0 auto; width: 100%;}
+.centerSite{margin: .5em auto; width: 97%; height: 40px; max-width: 1000px; padding: 2%; background-color: rgba(43,70,9,.8); box-sizing: border-box; overflow: visible; height: 100%;}
+.centerSiteTop{margin: 0 auto; width: 97%; height: 40px; max-width: 1000px; padding: 0 2% 0 2%; }
+
+.backgroundRod{background: #1c1c1c !important;}
+#fotoJoga{width: 70%; text-align: center;}
+#fotoJoga img{margin: 5% 0 0 -1em;  border: 1em solid yellow; box-shadow: 0 0 1em rgba(0,0,0,.9), inset 0 0 1em rgba(0,0,0,.8); border-radius: .5em}
+
+.logoRod{float: right; width: 100%; text-align: center;}
+
+.col-left{float: left; width: 48%; }
+.col-right{float: right; width: 48%; }
+
+.text-12{float: left; width: 100%; font-size: 6em; margin: 2% 0 0 0; color: #ffffff; text-align: center; font-weight: bold;}
+.text-6{float: left; width: 100%; font-size: 3.250em; margin: 2% 0 0 0; color: #ffffff; text-align: center;}
+.text-5{float: left; width: 100%; font-size: 2em; margin: 2% 0 0 0; color: #ffffff; text-align: center;}
+.text-1{float: left; width: 100%; font-size: 0.9em; margin: 2% 0 0 0; color: #ffffff; min-height: 30px;}
+.text-2{float: left; width: 100%; font-size: 1em; margin: 2% 0 0 0; color: #ffffff; text-align: center;}
+
+a.linkIn:link, a.linkIn:visited { text-decoration: none;}
+a.linkIn:hover {text-decoration: none;}
+a.linkIn:active {text-decoration: none; }
+
+.geralPont{float: left; width: 100%; margin: 6% 0 0 0; line-height: 2.8;}
+
+.contIn{float: left; width: 100%; margin: 10% 0 0 0; }
+#grafico{float: left;}
+
+.barraTit{float: left; width: 97%; background: #204a10; padding: 2% 0 2% 2%; color: #ffffff; font-size: 1.650em;   font-family: 'Roboto';}
+.boxInfText{float: left; margin: 3% 0 0 0; width: 100%;}
+.boxInfText-4{float: left; margin: 3% 0 0 0; width: 25%; color: #ffffff; }
+.boxInfText-3{float: left; margin: 3% 0 0 0; width: 33%; color: #ffffff;}
+.boxInfText-2{float: left; margin: 4% 0 0 0; width: 50%; color: #ffffff; }
+.fontInf{float: left; width: 100%; font-size: 1.1em; margin: 1% 0 0 0; color: #ffffff; }
+.fontInf-4{float: left; width: 100%; font-size: 1.1em; margin: 1% 0 0 0; color: #ffffff;}
+
+.left{text-align: left !important;}
+.center{text-align: center !important;}
+.bold{font-weight: bold;}
+
+.campSelect{float: left; width: 100%; margin: 3% 0 0 0;}
+.campSelect select{width: 99%; font-size: 1.2em; border: 0; padding: 3% 0 3% 0;}
+
+.geralComent{float: left; width: 100%; padding: 0 0 3% 0; color: #ffffff; border-bottom: 1px solid #204a10; margin: 3% 0 0 0;}
+.geralComent .fontComent{float: left;}
+.geralComent .titNome{float: left; margin: 0 0 0 3%; font-size: 1.2em;}
+.geralComent .comentJoga{float: left;  margin: 3% 0 0 3%; font-size: 0.9em; width: 75%;}
+
+#ajudeNossoTime{position: fixed; width: 100%; bottom: 0; background: yellow; padding: 2% 0 6% 0; float: left; border-top: 3px solid #204a10;}
+
+#barraFiltro{float: left; width: 95.5%; padding: 2%; background: yellow;}
+.camp-4{float: left; margin: 0 0 0 0; width: 77%}
+.camp-4 select{width: 100%; padding: 5% 0 5% 0; border: 0;}
+.camp-0 {float: left; margin: 0 0 0 2%; width: 21%}
+.camp-0 input{width: 100%; padding: 20% 0 20% 0; border: 0; background: #204a10; color: #ffffff;}
+
+.camp-3{float: left; margin: 0 0 0 0; width: 38%}
+.camp-3 select, .camp-2 select{width: 100%; padding: 5% 0 5% 0; border: 0;}
+.camp-2{float: left; margin: 0 0 0 1%; width: 38%}
+.camp-1{float: left; margin: 0 0 0 2%; width: 18%}
+.camp-1{float: left; margin: 0 0 0 2%; width: 21%}
+.camp-1 input{width: 100%; padding: 12% 0 9% 0; border: 0; background: #204a10; color: #ffffff;}
+
+.geralBoxL{float: left; width: 100%; margin: 3% 0 0 0;}
+.boxList{float: left; width: 47%; background: #204a10; padding: 1%; margin: 1% 1% 0 0;}
+.gFoto{float: left; width: 100%; text-align: center;}
+.gFoto img{border: 0.4em solid yellow; width: 92%; height: auto;}
+.aproveitamento{float:left; margin: 1% 0 0 0; padding: 2%; width: 96%; background: yellow; font-size: 0.9em; color: #df7400}
+.f-boxM{float: left; width: 50%; font-size: 0.8em; margin: 2% 0 0 0; color: #ffffff;}
+.carregarMais{float: left; width: 100%; padding: 2% 0 4% 0; text-align: center; margin: 5% 0 4% 0; background: #204a10;}
+
+.boxTime{float: left; width: 99%; margin: 5% 0 0 0;}
+.time01{float: left; width: 40%;}
+.time02{float: right; width: 40%;}
+.versos{float: left; width: 20%; text-align: center; color: #ffffff; font-size: 4em; margin: 9% 0 0 0;}
+.n-boxM{float: left; width: 100%; font-size: 1em; margin: 2% 0 0 0; color: #ffffff; font-weight: bold;}
+
+#doarDet{
+  position: fixed;
+  bottom: 2%;
+  right: 1%; 
+}
+#doar {
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  border-radius: 52%;
+  width: 80px;
+  height: 100px;
+  border: 0.6em solid yellow;
+  background: #33691e;
+  height: 80px;
+}
+.iconDoar img{width: 72%;}
+.iconDoar{float: left; width: 100%; margin: 2% 0 0 0; text-align: center;}
+.textDoar{float: left; width: 100%; margin: 2% 0 0 0; text-align: center; font-weight: 1.1em;}
+
+a.linkInSub:link, a.linkInSub:visited { text-decoration: underline;}
+a.linkInSub:hover {text-decoration: none;}
+a.linkInSub:active {text-decoration: none; }
+
+a.sublinkInSub:link, a.sublinkInSub:visited { text-decoration: none;}
+a.sublinkInSub:hover {text-decoration: underline;}
+a.sublinkInSub:active {text-decoration: none; }
+
+.c-white{color: #ffffff;}
+.c-cinza{color: #333333;}
+.c-verde{color: #204a10;}
+.c-amar-01{color: yellow; }
+.c-verde-01{color: #BAD80A;}
+.c-red{color: #B82C00;}
+
+
+
+  /* Table Base */
+
+  table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial;
+    color: #ffffff;
+  }
+
+  .table {
+    border-bottom: #999999 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .table th,
+  .table td {
+    border-right: #999999 solid 1px;
+    font-size: 1em;
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .table td:last-child {
+     border-right: 0;
+  }
+
+  .table thead th {
+    font-weight: normal;
+    background-color: yellow;
+    color: #204a10;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .table tbody > tr:nth-child(odd) > td,
+  .table tbody > tr:nth-child(odd) > th {
+    background-color: #204a10;
+  }
+
+
+/* Small Sizes */
+@media (max-width: 767px) { 
+  
+  /* Responsive Table */
+  .table-responsive {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .table-responsive thead,
+  .table-responsive tbody,
+  .table-responsive th,
+  .table-responsive td,
+  .table-responsive tr {
+    display: block;
+  }
+  .table-responsive td,
+  .table-responsive th {
+    height: 35px;
+  }
+
+  .table-responsive thead {
+    float: left;
+  }
+
+  .table-responsive tbody {
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .table-responsive tbody tr {
+    display: inline-block;
+  }
+
+  
+  .table td:last-child {
+     border-right: #999999 solid 1px;
+  }
+
+
+}
+
+
+/* =Nav
+-------------------------------------------------------------- */
+#nav-trigger { display: none; text-align: center; }
+#nav-trigger span {  display: inline-block; padding: 10px 0;  color: white; cursor: pointer; text-transform: uppercase; margin: 0.5% 1% 0 0; float: right;}
+   
+#menuSiteP{width: 100%; border: 0 solid #E9EAEA;}
+#gMenuSite{width: 100%; max-width: 1000px;}
+#geralMenuRod{margin: 0 auto; width: 100%; border: 0 solid;  height: 25px;  }
+
+/*MENU*/
+ul#primary-nav-p{border: 0 solid #ccc; font-size: 11px; font-weight: 200; margin: 0 0 0 0;}
+ul#primary-nav-p ul { border: 0px solid #ccc; display:inline; float:left;}
+ul#primary-nav-p li {float:left; list-style: none; display:inline; padding: 5px 20px 0 0; width: 100%;}
+ul#primary-nav-p .divisor{float:left; list-style: none; display:inline; padding: 3px 25px 0 1px;}
+ul#primary-nav-p li a {display:inline; text-decoration: none; color: #204a10; border:0px solid #ccc; text-align: center; float: left; font-size: 2.2em; font-weight: bold;}
+ul#primary-nav-p ul {  display: none; position:absolute; z-index: 1000; width: 180px; border: 0px solid #000000; margin: 45px 0 0 -7px; *margin: 42px 0 0 -143px;/*Hack IE7*/ }
+ul#primary-nav-p li ul li a { width: 172px; height: 20px; float: left; border-bottom: 1px solid #fff; margin: 0 0 0 0; padding: 8px 0 0 15px;  background-color: #00344f; font-size: 14px} /* Sub Menu Styles */
+ul#primary-nav-p li:hover ul, ul#primary-nav li li:hover ul, ul#primary-nav li li li:hover ul, ul#primary-nav li.over ul, ul#primary-nav li li.over ul, ul#primary-nav li li li.over ul { display: block; color: #ffffff; } /* The magic */
+ul#primary-nav-p li.menuparent:hover, ul#primary-nav li.over {  display:inline; color: #ffffff;}
+
+ul#primary-nav-p li  ul a:hover {  display:inline; color: #ffffff;}
+ul#primary-nav-p .divisorMen{float: left; margin: 7px 0 0 0; font-weight: 500; font-size: 20px;}
+.menuMarcado{background: url(../imagens/menuMarcado.jpg) no-repeat; color: #fff}
+/*END MENU*/
+
+ul#primary-nav-p ul { border: 0px solid #ccc; display:inline; float:left;}
+ul#primary-nav-p ul {  display: none; position:absolute; z-index: 1002; width: 180px; border: 0px solid #000000; margin: 33px 0 0 -7px !important; }
+ul#primary-nav-p li ul li a {width: 172px; float: left; border-bottom: 1px solid #fff; margin: 0 0 0 0; background-color: #333333; font-size: 12px; padding: 10px 30px; color: #FFFFFF;} /* Sub Menu Styles */
+ul#primary-nav-p li:hover ul, ul#primary-nav li li:hover ul, ul#primary-nav li li li:hover ul, ul#primary-nav li.over ul, ul#primary-nav li li.over ul, ul#primary-nav li li li.over ul { display: block; color:#ffffff; } /* The magic */
+#nav-trigger span.open:after { border-left: solid 10px transparent;   border-top: none;  border-bottom: solid 10px #fff;  border-right: solid 10px transparent; }   
+#nav-trigger span.open:after {border-left: solid 10px transparent; border-top: none; border-bottom: solid 10px #fff; border-right: solid 10px transparent; }
+
+nav#nav-main {float: right; padding: 0.5% 0 0.5% 0; }
+nav#nav-main ul { list-style-type: none;  margin: 0; padding: 0;  text-align: center; }
+nav#nav-main li { display: inline-block; padding: 0 2px; }
+nav#nav-main li:last-child { border-right: none; }
+nav#nav-main a { font-family: 'Raleway', sans-serif; font-size: 16px; font-weight: 600; text-decoration: none; display: block; color: #000000;  padding: 10px 6px; }
+
+nav#nav-mobile { position: relative; display: none; }
+nav#nav-mobile ul {  display: none; list-style-type: none; position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; text-align: center;  background-color: yellow; z-index: 1000;}
+nav#nav-mobile li {  display: block; padding: 5px 0; margin: 0 0; border-bottom: solid 1px #333333; }
+nav#nav-mobile li:last-child { border-bottom: none; }
+nav#nav-mobile a { display: block; color: white; padding: 10px 30px; text-decoration: none;}
+nav#nav-mobile a:hover {color: #fff; }
+
+#bTmenuBusca{float: left; }
+
+
+.ocult{display: block;}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+
+@media all and (max-width: 874px) {
+
+ul#primary-nav li ul li a{width: 100%; padding: 10px 0;}
+ul#primary-nav ul { display: none; position: inherit !important; z-index: 1000; width: 100%; border: 0px solid #000000; margin: 0 0 0 0;}
+.logoPort-r{float: left; margin: 3% 6.1% 0 0;}
+
+#btAdmApres{text-align: center; width: 100%;}
+#btAdmTela{width: 100%; text-align: center;}
+.gBox-t2{width: 96%; padding: 2%;}
+
+#geralboxInf{width: 100%;}
+#carrosselProd{text-align: center; width: 100%;}
+.conteudoCenter {padding: 2%; width: 96%;}
+
+#geralRodape{width: 96%}
+#logo{width: 144px; }
+#nav-trigger {display: block; }
+
+nav#nav-main {display: none;}
+
+nav#nav-mobile { display: block; margin: 2px 0 0 0;}
+
+
+}
+
+/*Capa*/
+#capa{
+	-webkit-transform: 1s all;
+	opacity: 0;
+	width: 100%;
+	left: -100%;
+	top: 0;
+	bottom:0;
+	position: fixed;
+	z-index: 99999;
+	background-image: url('../imagens/grass.jpg');
+	pointer-events: none;
+}
+#capa.aparece{
+	-webkit-transition: 1s all;
+	opacity: 1;
+	left: 0;
+	top: 0;
+	bottom:0;
+}
+#capa.desaparece{
+	-webkit-transition: 1s all;
+	opacity: 0;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom:0;
+}
+
+.topo{
+	background-color: #4bc900;
+	box-shadow: 0 0 .5em black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4.5em;
+	z-index: 9999;
+	border-bottom: 1px solid #0a7c0a;
+}
+
+.topo .logo{
+	height: 4.5em;
+	margin-top: -4em;
+	width: auto;
+}
+
+.topo img.menu{
+	height: 3em;
+	margin-top: .7em;
+	margin-left: .7em;
+	width: auto;
+}
+
+
+aside.menu{
+	-webkit-transition: .5s all;
+	background-color: white;
+	color: #37b917;
+	z-index: 100;
+	width: 100%;
+	left: -100%;
+	top: 4.5em;
+	bottom: 0;
+	position: fixed;
+	box-sizing: border-box;
+	padding: 2em;
+}
+
+aside.aberto{
+	left: 0;
+}
+
+aside.menu ul{
+	padding: 0;
+}
+
+aside.menu ul li{
+	margin-bottom: .5em;
+	
+	border-bottom: 1px solid #37b917;
+	list-style: none;
+}
+
+aside.menu ul li a{
+	padding: 1em 0;
+	width: 100%;
+	display: block;
+	color: #37b917;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.contIn .geralComent{
+	background-color: #339f0a;
+	box-shadow: 0 .5em 1em black;
+	color: white;
+	box-sizing: border-box;
+	padding: 1em;
+	font-size: 1em;
+}
+
+@media (min-width: 874px) and (max-width: 950px){ 
+
+nav#nav-main a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  padding: 10px 6px;
+}
